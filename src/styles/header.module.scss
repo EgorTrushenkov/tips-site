@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding: 40px 40px 0 40px;
+  background-color: black;
+  width: 100%;
+  z-index: 100;
+  &_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 390px;
+    & a {
+      line-height: 100%;
+      font-size: 40px;
+    }
+    @media (max-width:960px) {
+      width: auto;
+    }
+  }
+  &_right {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    margin-left: auto;
+    font-size: clamp(1.125rem, 0.75rem + 0.42vw, 1.25rem);
+    .nav {
+      display: flex;
+      gap: 26px;
+    }
+    @media (max-width: 960px) {
+      display: none;
+    }
+  }
+  &_menu {
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+  }
+  &_button:hover {
+    background: linear-gradient(270.02deg, #ff9900 0.02%, #ee5600 99.98%);
+    border-color: black;
+    cursor: pointer;
+  }
+}
+
+.ru {
+  display: block;
+  cursor: pointer;
+  margin-left: 64px;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@media (max-width: 1250px) {
+  .header {
+    justify-content: start;
+
+    &_right {
+      margin-left: auto;
+      margin-right: 40px;
+      .nav {
+        display: none;
+      }
+    }
+  }
+  .ru {
+    margin-left: 0;
+    margin-right: 64px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    &_left {
+      & p {
+        display: none;
+      }
+    }
+  }
+  .ru {
+    display: block;
+    margin: 0;
+  }
+  .tips {
+    width: 111px;
+  }
+}
