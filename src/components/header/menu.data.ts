@@ -24,8 +24,8 @@ const MenuProvider = () => {
         id: 3,
       },
       {
-        name: t("learnStudio"),
-        link: "https://t.me/courses_webstudio_tips",
+        name: t("tgStudio"),
+        link: "https://t.me/webstudio_tips",
         target: '_blank',
         id: 4,
       },
