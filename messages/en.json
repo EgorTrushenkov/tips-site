@@ -12,7 +12,7 @@
     "home": "Main",
     "portfolio": "Portfolio",
     "aboutStudio": "About studio",
-    "tgStudio": "TG channel",
+    "tgStudio": "Telegram",
     "contacts": "Contacts"
   },
   "Main": {
@@ -67,19 +67,19 @@
     "title15": "Suitable if you have a small budget",
 
     "title16": "Promo page",
-    "price1": "From 200$",
+    "price1": "From 400$",
     "description1": "This is a site that consists of 1-3 blocks. Such a page is created for a separate product or service",
 
     "title17": "Landing",
-    "price2": "From 600$",
+    "price2": "From 1000$",
     "description2": "A page for collecting leads or calling the user to a target action. For example, sign up for a webinar, consultation, or purchase a product",
 
     "title18": "Online store",
-    "price3": "From 800$",
+    "price3": "From 2000$",
     "description3": "A site for selling products with a payment system, cart, delivery, and informing the seller about the order",
 
     "title19": "Corporate site",
-    "price4": "From 900$",
+    "price4": "From 2000$",
     "description4": "A site with a more complex structure: several pages united by a menu or links on pages"
   },
   "Why": {

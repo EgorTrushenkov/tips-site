@@ -24,17 +24,17 @@ const MenuProvider = () => {
         id: 3,
       },
       {
-        name: t("tgStudio"),
-        link: "https://t.me/webstudio_tips",
-        target: '_blank',
-        id: 4,
-      },
-      {
         name: t("contacts"),
         link: "/#feedback",
         target: '',
-        id: 5,
+        id: 4,
       },
+      // {
+      //   name: t("tgStudio"),
+      //   link: "https://t.me/webstudio_tips",
+      //   target: '_blank',
+      //   id: 5,
+      // },
     ];
   };
 

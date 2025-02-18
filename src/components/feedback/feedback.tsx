@@ -54,12 +54,12 @@ export default function Feedback() {
   //WhatsApp
   const phoneNumber = "+79968085818";
   function handleWhatsAppButtonClick() {
-    window.location.href = `https://wa.me/${phoneNumber}`;
+    window.open(`https://wa.me/${phoneNumber}`, '_blank');
   }
   //Telegram
   const username = "https://t.me/webstudiotips";
   function handleTelegramButtonClick() {
-    window.location.href = `${username}`;
+    window.open(`${username}`, '_blank');
   }
   // Верстка
   const t = useTranslations("Feedback");

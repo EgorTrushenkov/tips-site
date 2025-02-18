@@ -36,7 +36,7 @@ export default function Footer() {
           <a className={styles.footer_top_number} href="tel:+79968085818">
             +7 996 808 58 18
           </a>
-          <Link href={`${username}`}>
+          <a target="_blank" href={`${username}`} rel="noopener noreferrer" >
             <button className={styles.btnTg}>
               <div className="xl:w-[23px]">
                 <Image
@@ -47,8 +47,8 @@ export default function Footer() {
                 />
               </div>
             </button>
-          </Link>
-          <Link href={`https://wa.me/${phoneNumber}`}>
+          </a>
+          <a target="_blank" href={`https://wa.me/${phoneNumber}`} rel="noopener noreferrer">
             <button className={styles.btnWhatsApp}>
               <div className="xl:w-[27px]">
                 <Image
@@ -63,7 +63,7 @@ export default function Footer() {
                 />
               </div>
             </button>
-          </Link>
+          </a>
         </div>
       </div>
       <div className={styles.footer_bottom}>
