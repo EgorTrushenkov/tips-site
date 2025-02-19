@@ -1,5 +1,4 @@
-const token = process.env.API_TOKEN;
-console.log(token);
+const token = process.env.NEXT_PUBLIC_API_TOKEN
 const baseUrl = `https://api.telegram.org/bot${token}/`;
 export const sendMessage = async (message: string): Promise<void> => {
   const encodedMessage = encodeURIComponent(message);
