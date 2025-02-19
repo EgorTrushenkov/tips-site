@@ -1,6 +1,5 @@
 import localFont from "next/font/local";
 import Header from "@/components/header/header";
-import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { NextIntlClientProvider, useLocale } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
@@ -8,6 +7,8 @@ import "./globals.scss";
 import Script from "next/script";
 import { Suspense } from "react";
 import YandexMetrika from "@/components/YandexMetrika/YandexMetrika";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const HelveticaNeueCyr = localFont({
   src: "../../../public/fonts/HelveticaNeueCyr-Roman.woff",
@@ -90,7 +91,9 @@ export default async function LocaleLayout({
             <SpeedInsights />
           </div>
         </NextIntlClientProvider>
+        <Analytics/>
       </body>
     </html>
+    
   );
 }

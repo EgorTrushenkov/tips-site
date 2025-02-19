@@ -23,6 +23,7 @@ export default function Home() {
         <Feedback />
         <Footer />
       </div>
+      
     </>
   );
 }
