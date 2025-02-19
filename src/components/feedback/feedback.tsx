@@ -40,7 +40,18 @@ export default function Feedback() {
   // Фукнция отправки сообщения в Telegram
   const handleSubmit = async (values: typeof form.values): Promise<void> => {
     try {
-      const message = `<b>Имя:</b> ${values.name}\n<b>Телефон:</b> ${values.phone}\n<b>Вид работы:</b> ${values.radio}\n<b>Референс:</b> ${values.text}`;
+      const options = {
+        hour: 'numeric', 
+        minute: 'numeric', 
+        second: 'numeric',
+        timeZoneName: 'long'
+      }
+      const now = Date.now(); // текущее время в миллисекундах
+      //console.log(now); // 1679122786889
+      const data = new Date(now);
+      const currentDate = data.toLocaleDateString('ru-RU'); //  // создание нового объекта Date
+      //console.log(currentDate)
+      const message = `<b>Имя:</b> ${values.name}\n<b>Телефон:</b> ${values.phone}\n<b>Вид работы:</b> ${values.radio}\n<b>Референс:</b> ${values.text}\n<b>Дата заявки:</b> ${currentDate}`;
       await sendMessage(message);
       setLoading(true);
     } catch (e) {
