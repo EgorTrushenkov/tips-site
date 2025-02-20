@@ -56,12 +56,13 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      {/* dzen-ver */}
+      <meta name="zen-verification" content="DFX3e4ldWcVkKaNTtoR9cHqjh2mJqAWScFDaprsOCDKervBndh8GMTxiw5YBmVWV" />
       <meta name="yandex-verification" content="26a74fdfb0140f6a" />
       <meta
         name="google-site-verification"
         content="WfrphM5PtNrpsti-a-uVn63yM7Ia222zeeQokFXo97M"
       />
-      <meta name="zen-verification" content="DFX3e4ldWcVkKaNTtoR9cHqjh2mJqAWScFDaprsOCDKervBndh8GMTxiw5YBmVWV" />
       <meta property="og:image" content="https:/webstudio-tips.ru/images/logos/logo.png" />
       <meta property="og:image:width" content="128" />
       <meta property="og:image:height" content="128" />
