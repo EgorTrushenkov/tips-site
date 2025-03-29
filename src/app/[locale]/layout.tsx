@@ -101,7 +101,6 @@ export default async function LocaleLayout(props: Readonly<LocaleLayoutProps>) {
           </div>
         </NextIntlClientProvider>
         <Analytics/>
-        <!-- Varioqub experiments -->
       </body>
     </html>
     
