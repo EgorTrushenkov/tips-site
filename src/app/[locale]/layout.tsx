@@ -48,10 +48,17 @@ export async function generateMetadata() {
   };
 }
 
-export default async function LocaleLayout({
-  children,
-  params: { locale },
-}: Readonly<LocaleLayoutProps>) {
+export default async function LocaleLayout(props: Readonly<LocaleLayoutProps>) {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
+  const {
+    children
+  } = props;
+
   const messages = await getMessages();
 
   return (
