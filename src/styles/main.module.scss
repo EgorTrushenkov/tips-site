@@ -1,0 +1,55 @@
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(180deg, #990000 0%, #FFB800 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: clamp(8.625rem, -3.938rem + 13.96vw, 12.813rem) 0;
+}
+
+.h1 {
+  width: 80%;
+  line-height: 100%;
+  background-color: transparent;
+  margin-bottom: 16px;
+  font-size: clamp(4rem, -0.313rem + 4.79vw, 5.438rem);
+}
+
+.p {
+  max-width: 643px;
+  padding-bottom: 64px;
+  border-color: transparent;
+  font-size: clamp(1rem, 0.654rem + 1.5vw, 2rem);
+}
+
+
+.button {
+  background-color: #fff;
+  color: black;
+  font-size: clamp(1rem, 0.654rem + 1.5vw, 2rem);
+  padding: 0;
+  width: clamp(20.938rem, 14.13rem + 29.44vw, 40.625rem);
+  height: clamp(2.625rem, 1.609rem + 4.39vw, 5.563rem);
+  &:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+}
+
+//адаптив
+
+@media (max-width: 1440px) {
+  .main_wrapper {
+    padding: 125px 0;
+  }
+  .h1 {
+    font-size: clamp(1.875rem, 1.14rem + 3.18vw, 4rem);
+    width: 90%;
+  }
+  .p {
+    max-width: clamp(19.5rem, 12.346rem + 30.93vw, 40.188rem);
+  }
+}

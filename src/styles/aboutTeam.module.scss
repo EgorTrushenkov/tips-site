@@ -1,0 +1,51 @@
+.about_team_wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  gap: 32px;
+  padding: 64px clamp(0.625rem, 0.25rem + 1.88vw, 2.5rem);
+  padding-top: 128px;
+  position: relative;
+  z-index: 2;
+  @media (max-width: 1439px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 64px;
+    padding-bottom: 26px;
+  }
+  @media (max-width: 960px) {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+
+.about_team {
+  display: flex;
+  flex-direction: column;
+  max-width: clamp(31.25rem, 12.5rem + 20.83vw, 37.5rem);
+  gap: clamp(1rem, 0.761rem + 1.03vw, 2rem);
+  @media (max-width: 1439px) {
+    max-width: 80%;
+  }
+  @media (max-width: 960px) {
+    max-width: 100%;
+  }
+  & h3 {
+    line-height: 100%;
+    font-size: clamp(2.5rem, 1.799rem + 3.03vw, 5.438rem);
+  }
+  & p {
+    line-height: 100%;
+    font-size: clamp(1rem, 0.881rem + 0.52vw, 1.5rem);
+  }
+}
+
+.image {
+  @media (max-width: 1439px) {
+    max-width: 80%;
+  }
+  @media (max-width: 960px) {
+    max-width: 100%;
+  }
+}

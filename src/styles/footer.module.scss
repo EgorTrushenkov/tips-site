@@ -1,0 +1,103 @@
+.footer {
+  padding-bottom: clamp(2rem, 1.308rem + 2.99vw, 4rem);
+  position: relative;
+  z-index: 2;
+  margin-top: 64px;
+  @media (max-width: 960px) {
+    margin-top: 45px;
+  }
+  &_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+    }
+    &_right {
+      display: flex;
+      align-items: center;
+      gap: clamp(0.25rem, -0.009rem + 1.12vw, 1rem);
+      & button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 65px;
+        border: 1px solid white;
+        border-radius: 20px;
+        transition: 0.3s;
+        @media (max-width: 1440px) {
+          width: 80px;
+          height: 50px;
+        }
+        @media (max-width: 800px) {
+          display: none;
+        }
+        & > * {
+          background-color: transparent;
+        }
+        &:hover {
+          scale: 1.06;
+          border-color: transparent;
+        }
+        &:active {
+          scale: 1.1;
+        }
+      }
+    }
+    &_number {
+      font-size: clamp(0.938rem, 0.57rem + 1.59vw, 2rem);
+    }
+    &_tel {
+      @media (max-width: 1440px) {
+        width: clamp(1rem, 0.697rem + 1.31vw, 1.875rem);
+      }
+    }
+  }
+  &_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: clamp(2rem, 1.611rem + 1.68vw, 3.125rem);
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 64px;
+    & p, .privacy_policy {
+      color: #bfbfbf;
+      font-size: clamp(0.938rem, 0.829rem + 0.47vw, 1.25rem);
+      line-height: 100%;
+    }
+  }
+  .privacy_policy {
+    border-bottom: 1px solid;
+  }
+}
+
+.btnTg:hover {
+  background-color: #24a0dd;
+}
+
+.btnWhatsApp:hover {
+  background-color: #2ac41d;
+}
+
+.tips_wrapper {
+  @media (max-width: 1440px) {
+    width: clamp(6.938rem, 5.338rem + 6.92vw, 11.563rem);
+  }
+}
+
+.tips_info {
+  font-size: 16px;
+  max-width: 182px;
+  line-height: 100%;
+  @media (max-width: 767px) {
+    font-size: 13px;
+    max-width: 120px;
+  }
+  @media (max-width: 450px) {
+    display: none;
+  }
+}

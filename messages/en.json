@@ -1,0 +1,180 @@
+{
+  "Header": {
+    "description": "Web development studio for selling websites"
+  },
+  "Button": {
+    "button": "Contact us",
+    "button2": "Get a free structure",
+    "button3": "Показать список",
+    "button4": "Свернуть список"
+  },
+  "NavMenu": {
+    "home": "Main",
+    "portfolio": "Portfolio",
+    "aboutStudio": "About studio",
+    "tgStudio": "Telegram",
+    "contacts": "Contacts"
+  },
+  "Main": {
+    "title": "Order a customized website that will pay off in the first month.",
+    "description": "Leave a request on the website now and get a free structure.",
+    "button": "Get a free structure"
+  },
+  "Cards": {
+    "title1": "Online store",
+    "title2": "Multi-page website",
+    "title3": "Landing",
+    "title4": "Promo page",
+    "info1": "Website for brand clothing store",
+    "info2": "Website for a company of horror quests",
+    "info3": "Website development for car fetching",
+    "info4": "Italian trattoria website",
+    "info5": "Designer Clothing Website",
+    "info6": "Website for SMM-agency",
+    "info7": "Website for a confectionery",
+    "info8": "Development of a website for car tuning",
+    "info9": "Course on earning on marketplaces",
+    "info10": "Repair of apartments, houses, and offices",
+    "info11": "Course on working with the subconscious",
+    "info12": "Website for video surveillance system",
+    "button1": "Landing",
+    "button2": "Multi-page",
+    "button3": "Online store",
+    "button4": "Promo page",
+    "button5": "All"
+  },
+  "Price": {
+    "header": "Price",
+    "headerInfo1": "Depending on the objectives and complexity of the project",
+    "headerInfo2": "HTML/CSS + JS, NextJS or ASPRO:",
+
+    "title1": "For large-sized projects with many pages of the same type (catalog, blog, news site)",
+    "title2": "Need complex database work",
+    "title3": "The Most Powerful SEO",
+    "title4": "Need a productive website",
+    "title5": "There are non-standard tasks for the site",
+    "title6": "If you want a web application",
+
+    "title7": "For medium-sized projects with similar pages (e.g., catalog or blog)",
+    "title8": "If there are specific requirements for CMS",
+    "title9": "Need a personal account",
+    "title10": "Need to set up additional sales to goods, implement purchases '3 in 1'",
+    "title11": "Other complex and non-standard tasks",
+
+    "title12": "For quick launch of small sites, stores, and landings",
+    "title13": "For express launch (within 3-7 days)",
+    "title14": "Ideal when you need a test of the industry",
+    "title15": "Suitable if you have a small budget",
+
+    "title16": "Promo page",
+    "price1": "From 400$",
+    "description1": "This is a site that consists of 1-3 blocks. Such a page is created for a separate product or service",
+
+    "title17": "Landing",
+    "price2": "From 1000$",
+    "description2": "A page for collecting leads or calling the user to a target action. For example, sign up for a webinar, consultation, or purchase a product",
+
+    "title18": "Online store",
+    "price3": "From 2000$",
+    "description3": "A site for selling products with a payment system, cart, delivery, and informing the seller about the order",
+
+    "title19": "Corporate site",
+    "price4": "From 2000$",
+    "description4": "A site with a more complex structure: several pages united by a menu or links on pages"
+  },
+  "Why": {
+    "title1": "Why",
+    "title2": "us?",
+
+    "description1": "We have payment for work, not for hours",
+    "description2": "Free corrections within 1 month after work",
+    "description3": "We help 24/7",
+    "description4": "We select a beneficial solution for you"
+  },
+  "Info": {
+    "headerLeft1": "Find a solution",
+    "headerLeft2": "for each",
+    "descriptionLeft1": "Customers come to us with a request:",
+    "descriptionLeft2": "«cheap landing» and «premium site» with non-standard, complex tasks",
+
+    "headerRight": "Work process",
+
+    "headerRight1": "Research and design",
+    "descriptionRight1": "We connect your business with the target audience, analyzing data and competitors, creating optimal solutions and project structure.",
+
+    "headerRight2": "Design",
+    "descriptionRight2": "We create a design for the future site, based on positioning and corporate style. If materials are missing, we offer our vision without increasing the budget.",
+
+    "headerRight3": "Development",
+
+    "headerRight4": "Launch",
+    "descriptionRight3": "Before launching, we conduct a final debugging of the site, set up metrics and analytics to track user actions.",
+    "descriptionRight4": "We will prepare a video instruction on how to use the site or train your specialist.",
+    "descriptionRight5": "After launch, we maintain contact with you and discuss further project development plans.",
+
+    "headerRight5": "Development",
+    "descriptionRight6": "We collaborate with your marketers and advertising agents, or help find new ones. We quickly make changes and improvements. We support you in analytics and answer your questions."
+  },
+
+  "Feedback": {
+    "title": "Free structure for your site",
+
+    "description1": "Please fill out the form, this will help us understand exactly which direction to move in",
+    "description2": "Or contact us in another way:",
+
+    "feedbackDescription1": "What is your name",
+    "feedbackDescription2": "Phone/WhatsApp/Telegram",
+    "feedbackDescription3": "I am interested in",
+    "feedbackDescription4": "Do you already have a project you're oriented towards/like?",
+
+    "feedbackButton1": "Web application",
+    "feedbackButton2": "Other",
+    "feedbackButton3": "Site",
+
+    "feedbackPlaceholder1": "Name",
+    "feedbackPlaceholder2": "Enter a link (optional)",
+
+    "privacyPolicy": "By clicking the button, I agree to the processing of personal data"
+  },
+
+  "Footer": {
+    "description": "web development studio",
+    "privacyPolicy": "Privacy Policy"
+  },
+
+  "AboutHeader": {
+    "title": "About the studio",
+    "description1": "Our team of experienced specialists works on creating selling and functional web solutions for various clients",
+    "description2": "We ensure full transparency at all stages of work, so you can be confident that your project is in good hands",
+    "description3": "We ensure full transparency at all stages of work, so you can be confident that your project is in good hands"
+  },
+
+  "AboutInfo": {
+    "title1": "Approach",
+    "title2": "Solutions",
+    "title3": "Flexibility",
+    "description1": "We thoroughly study the needs of each client and create unique solutions that meet their specific tasks and goals",
+    "description2": "We are not afraid to experiment and offer non-standard solutions to help you stand out in the market and achieve your goals",
+    "description3": "We are ready to quickly respond to market changes and adapt to new requirements to ensure the successful development of your project"
+  },
+
+  "AboutTeam": {
+    "title": "Team",
+    "description1": "We are a provider of high-quality, profitable, and selling solutions. Our team includes experienced copywriters, designers, developers, and marketers, SEO specialists.",
+    "description2": "We value our reputation and ensure full transparency at all stages of work, so you can be confident that your project is in good hands."
+  },
+
+  "Metadata": {
+    "title1": "Web Design Agency TIPS - Creating High-Converting Websites for Business Growth",
+    "titleOpenGraph1": "TIPS Web Studio - Creation and promotion of selling websites",
+    "description1": "Webstudio TIPS is a leading web design agency that specializes in creating effective, sales-driving websites for businesses looking to expand internationally. Our team of marketing-savvy designers and developers work closely with clients to build custom websites tailored to their unique goals and target audiences",
+    "descriptionOpenGraph1": "TIPS Web Studio offers services in website development and promotion. We develop turnkey lendings, online stores and corporate websites. We carry out SEO-optimization and contextual advertising.",
+    "keywords1": "web design agency that drives sales, effective website design for business growth, conversion-focused landing pages, high-converting e-commerce websites, corporate websites that enhance brand visibility, SEO services for increased organic traffic, digital marketing strategies for better engagement, custom website development for lead generation, responsive web design that sells, user-friendly websites that boost conversions, marketing-driven web design solutions, website redesign for improved performance, branding and web design for business success, online marketing strategies for higher sales, web development with a focus on ROI, websites that effectively communicate brand messages, tailored web solutions for diverse industries, lead generation websites for small businesses, web design that enhances customer loyalty, performance-driven digital marketing agencies, websites designed to convert visitors into customers, innovative web design for modern businesses, full-service web design and marketing, strategic web development for international audiences, websites that integrate seamlessly with marketing tools, engaging user experiences that drive sales, website analytics for measuring success, and digital transformation through effective web design.",
+
+    "title2": "About TIPS Web Design Agency - A Team of Professionals",
+    "titleOpenGraph2": "About TIPS web studio - a team of professionals",
+    "description2": "Find out more about TIPS Web Studio. We are a team of experienced professionals who create effective websites and help businesses grow online. Our mission is to make internet projects that customers will be proud of.",
+    "descriptionOpenGraph2": "Find out more about TIPS Web Studio. We are a team of experienced professionals who create effective websites and help businesses grow online. Our mission is to make internet projects that customers will be proud of.",
+    "keywords2": "about our web design agency, meet our marketing-driven web development team, professional web designers for business success, our mission: creating websites that sell, experienced web developers focused on conversions, innovative web solutions for modern businesses, dedicated team of digital marketing experts, how we build high-converting websites, our approach to effective web design and marketing, why choose us for your web development needs, our success stories in web design and marketing, passionate about creating user-friendly websites, committed to delivering results-driven web solutions, our expertise in e-commerce and lead generation, building brands through strategic web design, our vision for impactful online presence, collaborative approach to web development, enhancing user experience for better engagement, our values: creativity, innovation, and results, testimonials from satisfied clients."
+  }
+}

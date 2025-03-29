@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://webstudio-tips.ru
+
+# Sitemaps
+Sitemap: https://webstudio-tips.ru/sitemap.xml

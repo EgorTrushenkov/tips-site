@@ -1,0 +1,19 @@
+.btn {
+  border: solid 1px;
+  border-color: white;
+  border-radius: 40px;
+  padding: 15px 40px;
+  line-height: 100%;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    scale: 1.02;
+  }
+  &:active {
+    scale: 1.08;
+  }
+}
+//hover везде прописан отдельно!!!
