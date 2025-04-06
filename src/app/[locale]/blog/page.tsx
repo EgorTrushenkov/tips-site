@@ -12,7 +12,7 @@ export default function Blog() {
       <div className="px-10 lg:px-[10px] lg:overflow-hidden">
         <h2 className={styles.title}>Блог</h2>
         <div className={styles.articles}>
-          <Link href={`./blog/statia`}>
+          <Link href={`./blog/statia` + i}>
             <div className={styles.article}>
               <div className={styles.article_image}>
                 <img
